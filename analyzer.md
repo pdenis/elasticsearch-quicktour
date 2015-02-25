@@ -33,7 +33,7 @@ PUT /wiki
 	    "properties": {
 	   
 	       "title": {
-	          "type": "string"
+	          "type": "string",
 	          "analyzer": "my_analyzer"
 	       }
 	    }
