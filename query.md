@@ -87,7 +87,7 @@ GET /wikipedia/_search
       },
     }
   ],
-  "size": 10
+  "size": 10,
   "from": 10
 }
 ```
