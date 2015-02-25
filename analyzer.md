@@ -23,3 +23,21 @@ PUT /my_index
     }
 }
 ```
+And use them : 
+
+```json
+PUT /wiki
+{
+  "mappings": {
+	 "page": {
+	    "properties": {
+	   
+	       "title": {
+	          "type": "string"
+	          "analyzer": "my_analyzer"
+	       }
+	    }
+	 }
+  }
+}
+```
