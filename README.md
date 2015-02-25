@@ -16,5 +16,5 @@ A quick overview of elasticsearch
 
 * [Misc](https://github.com/pdenis/elasticsearch-quicktour/tree/master/misc.md)
 
-* [Presentation](https://raw.githubusercontent.com/pdenis/elasticsearch-quicktour/tree/master/elasticsearch_overview.pdf)
+* [Presentation](https://github.com/pdenis/elasticsearch-quicktour/raw/master/elasticsearch_overview.pdf)
 
