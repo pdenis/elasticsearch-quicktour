@@ -1,11 +1,11 @@
 Misc
 ====
 
-Monitoring : ​
+Monitoring : 
      * GET /_status​
      * GET /_cluster/health​
-​
-Backup : ​
+
+Backup : 
      * PUT /_snapshot/my_backup​
 
 ```json
