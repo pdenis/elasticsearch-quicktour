@@ -9,22 +9,28 @@ Remove : DELETE /my_foo
 
 Create a document
 
+```json
 POST /wiki/page/1
 {
   "title": "My title",
   "text": "Helo world"
 }
+```
 
 Update a document
 
+```json
 PUT /wiki/page/1
 {
   "title": "My title",
   "text": "Helo world",
   "version": 2
 }
-Response : 
+```
 
+
+Response : 
+```json
 {
    "_index": "wiki",
    "_type": "page",
@@ -32,3 +38,4 @@ Response :
    "_version": 1,
    "created": true
 }
+```
